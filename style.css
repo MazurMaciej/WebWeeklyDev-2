@@ -39,15 +39,16 @@ nav {
     text-decoration: none;
 }
 
-.menu ul {
+ul.menu {
     display: flex;
+    justify-content: space-around;
     list-style: none;
+    width: 50%;
 }
 
 .menu a {
     color: #262626;
     font-size: 1.6rem;
-    margin-right: 3rem;
     text-decoration: none;
 }
 
