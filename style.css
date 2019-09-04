@@ -97,11 +97,20 @@ header p {
 
 header a {
     background-color: #ff6033;
+    border: 1px #fff solid;
     color: #fff;
+    cursor: pointer;
     font-size: 2rem;
     font-weight: 400;
     padding: 1.8rem 2.2rem 1.8rem 2.2rem;
     text-transform: uppercase;
+    transition: .3s;
+}
+
+header a:hover {
+    background-color: #fff;
+    border: 1px #ff6033 solid;
+    color: #ff6033;
 }
 
 header img {
@@ -112,14 +121,59 @@ header img {
     width: 1.68rem;
 }
 
+/* Second section - About-us */
 .about-us {
+    align-items: flex-end;
     background-color: #00b3b3;
+    background-image: url('./img/img2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
     height: 80vh;
+    justify-content: center;
+    padding-right: 16rem;
 }
 
+.copy-in-about-us {
+    width: 40%;
+}
+
+.about-us h2 {
+    font-size: 7rem;
+    font-weight: 700;
+    padding-bottom: 3rem;
+}
+
+.about-us p {
+    font-size: 1.7rem;
+    font-weight: 400;
+    line-height: 2.7rem;
+    padding-bottom: 2.5rem;
+}
+
+/* Third section - Our services */
 .our-services {
     background-color: #70bfff;
+    /* background-image: url('./img/img3.png');
+    background-position: 200px right;
+    background-repeat: no-repeat;
+    background-size: contain; */
     height: 80vh;
+    position: relative;
+}
+
+.our-services img {
+    height: 90%;
+}
+
+.our-services h2 {
+    color: #fff;
+    font-size: 7rem;
+    font-weight: 700;
+    padding-bottom: 3rem;
+    position: absolute;
 }
 
 .gallery {
