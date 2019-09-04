@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    
+}
+
+header {
+    background-color: #f9f8fb;
+    background-image: url('./img/img1.png');
+    background-repeat: no-repeat;
+    background-position:right bottom;
+    background-size: contain;
+    height: 110vh;
+}
+
+nav {
+    align-items: center;
+    background-color: #fff;
+    display: flex;
+    height: 13vh;
+    justify-content: space-between;
+    line-height: 5rem;
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+    color: #262626;
+    font-family: 'Pacifico', cursive;
+    font-size: 5rem;
+    text-decoration: none;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu a {
+    color: #262626;
+    font-size: 1.6rem;
+    margin-right: 3rem;
+    text-decoration: none;
+
+}
+
+
+
+
+.about-us {
+    background-color: #00b3b3;
+    height: 80vh;
+}
+
+.our-services {
+    background-color: #70bfff;
+    height: 80vh;
+}
+
+.gallery {
+    background-color: #ffe92f;
+    height: 200vh;
+}
+
+.subscribe {
+    background-color: #fff;
+    height: 50vh;
+}
+
+.blog {
+    background-color: #b07cf7;
+    height: 100vh;
+}
+
+.contact {
+    height: 100vh;
+}
+
+.footer {
+    background-color: #262626;
+    height: 20vh;
+}
