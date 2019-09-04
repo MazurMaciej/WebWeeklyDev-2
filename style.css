@@ -12,48 +12,104 @@ html {
     position: relative;
 }
 
-header {
-    background-color: #f9f8fb;
-    background-image: url('./img/img1.jpg');
-    background-repeat: no-repeat;
-    background-position:right bottom;
-    background-size: contain;
-    height: 110vh;
-}
-
+/* Menu*/
 nav {
-    align-items: center;
+    align-items: flex-end;
     background-color: #fff;
     display: flex;
     height: 13vh;
-    justify-content: space-between;
-    line-height: 5rem;
+    justify-content: space-around;
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 .logo {
+    align-self: center;
     color: #262626;
     font-family: 'Pacifico', cursive;
     font-size: 5rem;
     text-decoration: none;
+    transition: .3s;
+}
+
+.logo:hover {
+    color: #ff6033;
 }
 
 ul.menu {
     display: flex;
     justify-content: space-around;
     list-style: none;
-    width: 50%;
+    width: 40%;
+}
+
+ul.menu li {
+    padding-bottom: 1rem;
 }
 
 .menu a {
+    border-top: 2px solid #fff;
     color: #262626;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: .5rem;
     text-decoration: none;
+    transition: .3s;
 }
 
 .menu a:hover {
-    border-top: 2px solid #ff6033;
+    border-top: 4px solid #ff6033;
+}
+
+/* First section - Header */
+header {
+    background-color: #f9f8fb;
+    background-image: url('./img/img1.jpg');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    height: 110vh;
+    justify-content: center;
+    position: relative;
+}
+
+.hero-image {
+    padding-left: 16rem;
+    width: 25%;
+    color: #262626;
+}
+
+header h1 {
+    font-size: 6rem;
+    font-weight: 600;
+    padding-bottom: 3rem;
+}
+
+header p {
+    font-size: 1.7rem;
+    font-weight: 400;
+    line-height: 2.7rem;
+    padding-bottom: 4.8rem;
+}
+
+header a {
+    background-color: #ff6033;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 1.8rem 2.2rem 1.8rem 2.2rem;
+    text-transform: uppercase;
+}
+
+header img {
+    bottom: 5vh;
+    height: 2.8rem;
+    left: calc(50% - .84rem);
+    position: absolute;
+    width: 1.68rem;
 }
 
 .about-us {
