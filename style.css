@@ -6,12 +6,15 @@
 html {
     font-family: 'Raleway', sans-serif;
     font-size: 10px;
-    
+}
+
+.wrapper {
+    position: relative;
 }
 
 header {
     background-color: #f9f8fb;
-    background-image: url('./img/img1.png');
+    background-image: url('./img/img1.jpg');
     background-repeat: no-repeat;
     background-position:right bottom;
     background-size: contain;
@@ -46,11 +49,11 @@ nav {
     font-size: 1.6rem;
     margin-right: 3rem;
     text-decoration: none;
-
 }
 
-
-
+.menu a:hover {
+    border-top: 2px solid #ff6033;
+}
 
 .about-us {
     background-color: #00b3b3;
