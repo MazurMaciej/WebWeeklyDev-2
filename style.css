@@ -273,8 +273,6 @@ header img {
     width: 30%;
 }
 
-
-
 .box-photo-4-and-5 {
     display: flex;
     justify-content: center;
@@ -289,19 +287,40 @@ header img {
 
 .subscribe {
     background-color: #fff;
+
     height: 50vh;
 }
 
+/* Sixth section - Blog */
 .blog {
     background-color: #b07cf7;
     height: 100vh;
 }
 
+/* Seventh section - Contact */
 .contact {
     height: 100vh;
 }
 
+/* Eitghth section - Footer */
 .footer {
+    align-items: center;
     background-color: #262626;
-    height: 20vh;
+    color: #b9b9b9;
+    display: flex;
+    font-size: 1.6rem;
+    height: 10vh;
+    justify-content: space-around;
+}
+
+.logo-footer {
+    color: #b9b9b9;
+    font-family: 'Pacifico', cursive;
+    font-size: 4rem;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.logo-footer:hover {
+    color: #ff6033;
 }
