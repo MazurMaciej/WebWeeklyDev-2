@@ -204,13 +204,13 @@ header img {
     width: 6rem;
 }
 
-.our-services-box:hover > p {
+.our-services-box:hover>p {
     background-color: #ff6033;
     border: 1px solid #000;
     color: #fff;
 }
 
-.our-services-box:hover > i {
+.our-services-box:hover>i {
     background-color: #ff6033;
     border: 1px solid #000;
     color: #fff;
@@ -225,8 +225,9 @@ header img {
     right: 5%;
     top: 50%;
     transform: translateY(-3rem);
- 
+
 }
+
 /* Fourth section - Gallery */
 .gallery {
     background-color: #ffe92f;
@@ -264,7 +265,7 @@ header img {
 }
 
 .photo-1 {
-   width: 50%;
+    width: 50%;
 }
 
 .box-photo-2-and-3 {
@@ -286,20 +287,82 @@ header img {
 /* Fifth section - Subscribe */
 
 .subscribe {
+    align-items: center;
     background-color: #fff;
-
+    background-image: url('./img/img9.png');
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    color: #262626;
+    display: flex;
+    flex-direction: column;
     height: 50vh;
+    justify-content: center;
+}
+
+.subscribe h2 {
+    font-size: 4rem;
+    font-weight: 500;
+
+}
+
+.subscribe p {
+    font-size: 1.7rem;
+    font-weight: 400;
+    line-height: 2.7rem;
+    padding-bottom: 2.5rem;
+    width: 30%;
+}
+
+.subscribe input {
+    width: 30%;
 }
 
 /* Sixth section - Blog */
 .blog {
+    color: #fff;
     background-color: #b07cf7;
     height: 100vh;
 }
 
+.blog h2 {
+    font-size: 7rem;
+    font-weight: 500;
+    padding-bottom: 4rem;
+    padding-top: 10rem;
+}
+
+.blog p {
+    font-size: 1.7rem;
+    font-weight: 400;
+    line-height: 2.7rem;
+    padding-bottom: 2.5rem;
+    text-align: center;
+    width: 40%;
+}
+
 /* Seventh section - Contact */
 .contact {
+    background-image: url('./img/img13.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
     height: 100vh;
+}
+
+.contact h2 {
+    font-size: 7rem;
+    font-weight: 500;
+    padding-bottom: 4rem;
+    padding-top: 10rem;
+}
+
+.contact p {
+    font-size: 1.7rem;
+    font-weight: 400;
+    line-height: 2.7rem;
+    padding-bottom: 2.5rem;
+    text-align: center;
+    width: 40%;
 }
 
 /* Eitghth section - Footer */
