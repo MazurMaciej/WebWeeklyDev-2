@@ -260,27 +260,24 @@ header img {
 
 .gallery-photos-box {
     display: flex;
-    justify-content: center;
-
+    max-width: 80%;
 }
 
-.photo-1 {
-    width: 50%;
-}
 
 .box-photo-2-and-3 {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    justify-content: space-between;
+
 }
 
 .box-photo-4-and-5 {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
-.box-photo-4-and-5 img {
-    width: 40%;
+.gallery-photos-box img, .box-photo-2-and-3 img, .box-photo-4-and-5 img {
+    max-width: 100%
 }
 
 
