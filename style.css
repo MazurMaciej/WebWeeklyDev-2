@@ -258,9 +258,16 @@ header img {
     width: 40%;
 }
 
+.all-gallery {
+    align-items: center;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 .gallery-photos-box {
     display: flex;
-    max-width: 80%;
+
 }
 
 
@@ -275,10 +282,10 @@ header img {
     display: flex;
     justify-content: space-between;
 }
-
+/* 
 .gallery-photos-box img, .box-photo-2-and-3 img, .box-photo-4-and-5 img {
     max-width: 100%
-}
+} */
 
 
 /* Fifth section - Subscribe */
@@ -293,7 +300,15 @@ header img {
     display: flex;
     flex-direction: column;
     height: 50vh;
+    justify-content: center;    
+}
+
+.subscribe-box-content {
+    align-items: left;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    width: 80%;
 }
 
 .subscribe h2 {
