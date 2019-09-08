@@ -231,7 +231,7 @@ header img {
 /* Fourth section - Gallery */
 .gallery {
     background-color: #ffe92f;
-    height: auto;
+    height: 250vh;
 }
 
 .gallery-content-box {
