@@ -231,7 +231,7 @@ header img {
 /* Fourth section - Gallery */
 .gallery {
     background-color: #ffe92f;
-    height: 170vh;
+    height: auto;
 }
 
 .gallery-content-box {
@@ -282,13 +282,15 @@ header img {
 
 .box-photo-4-and-5 {
     display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
     max-width: 100%;
 }
 
 .gallery img {
     cursor: pointer;
     max-width: 100%;
-    padding: 1rem;
+    padding: 1.2rem;
     transition: .3s;
 }
 
@@ -312,10 +314,11 @@ header img {
 }
 
 .gallery a:hover {
-background-color: #ff6033;
-border: 1px #ff6033 solid;
-color: #fff;
+    background-color: #ff6033;
+    border: 1px #ff6033 solid;
+    color: #fff;
 }
+
 /* 
 .gallery-photos-box img, .box-photo-2-and-3 img, .box-photo-4-and-5 img {
     max-width: 100%
@@ -334,7 +337,7 @@ color: #fff;
     display: flex;
     flex-direction: column;
     height: 50vh;
-    justify-content: center;    
+    justify-content: center;
 }
 
 .subscribe-box-content {
@@ -388,9 +391,9 @@ color: #fff;
 }
 
 .subscribe a:hover {
-background-color: #ff6033;
-border: 1px #ff6033 solid;
-color: #fff;
+    background-color: #ff6033;
+    border: 1px #ff6033 solid;
+    color: #fff;
 }
 
 
