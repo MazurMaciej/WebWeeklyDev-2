@@ -314,6 +314,7 @@ header img {
 .subscribe h2 {
     font-size: 4rem;
     font-weight: 500;
+    padding: 0 0 2rem 4rem;
 
 }
 
@@ -321,13 +322,42 @@ header img {
     font-size: 1.7rem;
     font-weight: 400;
     line-height: 2.7rem;
-    padding-bottom: 2.5rem;
-    width: 30%;
+    padding-bottom: 3rem;
+    width: 45%;
 }
 
 .subscribe input {
-    width: 30%;
+    border: 1px solid #dbdbdb;
+    line-height: 5rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-left: 2rem;
+    width: 40%;
 }
+
+.subscribe-input-box {
+    display: flex;
+}
+
+.subscribe a {
+    background-color: #96b92c;
+    border: 1px #96b92c solid;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 5rem;
+    margin-left: 2rem;
+    padding: .5rem 2rem;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.subscribe a:hover {
+background-color: #ff6033;
+border: 1px #ff6033 solid;
+color: #fff;
+}
+
 
 /* Sixth section - Blog */
 .blog {
