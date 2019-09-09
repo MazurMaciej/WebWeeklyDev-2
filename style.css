@@ -231,7 +231,7 @@ header img {
 /* Fourth section - Gallery */
 .gallery {
     background-color: #ffe92f;
-    height: 300vh;
+    height: 200vh;
 }
 
 .gallery-content-box {
@@ -400,8 +400,10 @@ header img {
 /* Sixth section - Blog */
 .blog {
     color: #fff;
+    display: flex;
     background-color: #b07cf7;
     height: 100vh;
+    justify-content: center;
 }
 
 .blog h2 {
