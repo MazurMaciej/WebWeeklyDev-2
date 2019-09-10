@@ -283,14 +283,20 @@ header img {
     display: flex;
     flex-grow: 1;
     justify-content: space-between;
-    max-width: 100%;
+    padding-bottom: 10rem;
 }
+
+
 
 .gallery img {
     cursor: pointer;
     max-width: 100%;
     padding: 1.2rem;
     transition: .3s;
+}
+
+.box-photo-4-and-5 img {
+    max-width: calc(50% - 2.4rem);
 }
 
 .gallery img:hover {
