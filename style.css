@@ -286,8 +286,6 @@ header img {
     padding-bottom: 10rem;
 }
 
-
-
 .gallery img {
     cursor: pointer;
     max-width: 100%;
@@ -473,4 +471,16 @@ header img {
 
 .logo-footer:hover {
     color: #ff6033;
+}
+
+@media(max-width: 1280px) {
+    ul.menu {
+        width: 60%;
+    }
+}
+
+@media(max-width: 800px) {
+    ul.menu {
+        display:none;
+    }
 }
